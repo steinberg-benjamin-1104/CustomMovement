@@ -4,3 +4,4 @@ Notes:
 - If you need to flip around the character to face right/left, add a boolean and rotate the mesh to be either -90 or 90 degrees on the Z axis.
 - Velocity is measured in centimeters per frame of movement, and acceleration modifies that value per frame.
 - If the gravity value is too high, I recommend either creating a MaxFallSpeed variable, or creating a custom fixed point Math class that acts like a float.
+- Ground is always assumed to be 0, build levels around that
